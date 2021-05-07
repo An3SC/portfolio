@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Log (or break) in",
+        "url": "https://log-or-break-in.netlify.app/",
+        "img": "img/logorbreak.png",
+        "tags": {
+            "tag1": "DOM Scripting",
+            "tag2": "Event Listeners",
+            "tag3": "Pointermove"
+        },
+        "repo": "https://github.com/An3SC/BreakMyCode/tree/main/01-LogIn"
+    },
+    {
+        "name": "Card animation",
+        "url": "https://animated-cardthulhu.netlify.app/",
+        "img": "/img/cardthulhu.png",
+        "tags": {
+            "tag1": "Event Listeners",
+            "tag2": "Pointermove",
+            "tag3": "Z axis"
+        },
+        "repo": "https://github.com/An3SC/Testing/tree/main/02-CardAnimation"
+    },
+    {
+        "name": "Color flipper",
+        "url": "https://color-ffflipper.netlify.app/",
+        "img": "/img/colorflipper.png",
+        "tags": {
+            "tag1": "DOM Scripting",
+            "tag2": "Event Listeners",
+            "tag3": "Arrays"
+        },
+        "repo": "https://github.com/An3SC/Testing/tree/main/04-colorFlipper"
+    },
+    {
+        "name": "Scroll animation",
+        "url": "",
+        "img": "",
+        "tags": {
+            "tag1": "",
+            "tag2": "",
+            "tag3": ""
+        },
+        "repo": "https://github.com/An3SC/Testing/tree/main/03-Scroll-Animation"
+    },
+    {
+        "name": "Testing1",
+        "url": "",
+        "img": "",
+        "tags": {
+            "tag1": "",
+            "tag2": "",
+            "tag3": ""
+        },
+        "repo": ""
+    },
+    {
+        "name": "Testing2",
+        "url": "",
+        "img": "",
+        "tags": {
+            "tag1": "",
+            "tag2": "",
+            "tag3": ""
+        },
+        "repo": ""
+    },
+    {
+        "name": "Testing3",
+        "url": "",
+        "img": "",
+        "tags": {
+            "tag1": "",
+            "tag2": "",
+            "tag3": ""
+        },
+        "repo": ""
+    }
+]
