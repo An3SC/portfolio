@@ -9,7 +9,7 @@ const Header = () => {
     useOnClickOutside(node, () => setOpen(false));
 
     return (
-        <div className="container-xl mx-auto flex items-center h-24 px-4 bg-2-hex ">
+        <div className="header container-xl mx-auto flex items-center px-4 bg-2-hex">
             <a href="/" className="flex-1">
                 Andrés Sierra Cardalda
             </a>
