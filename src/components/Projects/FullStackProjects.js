@@ -8,7 +8,7 @@ const FullStackProjects = (props) => {
     const actualPage = window.location.href;
 
     return (
-        <div className="container bg-2-hex p-4">
+        <div className="container bg-2-hex flex flex-col items-center p-4">
             <h1 className="flex justify-center">Full Stack</h1>
             <div className="grid grid-cols-2 gap-4">
                 {fullStackProjects &&
