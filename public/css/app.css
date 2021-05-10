@@ -42,6 +42,10 @@
     color: var(--hex-4);
 }
 
+/* Out-of-tailwind styles */
+.header {
+    height: 25vh;
+}
 /* Styled burger */
 .styledBurger {
     position: absolute;
@@ -102,6 +106,26 @@
     text-decoration: none;
     transition: color 0.3s linear;
     color: whitesmoke;
+    position: relative;
+    display: inline-block;
+}
+.styledMenu a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 25px;
+    left: 0;
+    background: var(--hex-4);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.styledMenu a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    color: white;
 }
 
 /* Tags */
@@ -119,6 +143,14 @@
     width: fit-content;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+/* Typing dencrypting */
+.typing {
+    min-height: 3rem;
+}
+.dencrypt {
+    color: var(--hex-4);
 }
 
 /* icons, images */
