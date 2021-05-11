@@ -26,7 +26,12 @@ const Burger = ({ open, setOpen }) => {
     }
 
     return (
-        <div className="fixed styledBurger" open={open} onClick={() => setOpen(!open)}>
+        <div
+            className="fixed styledBurger"
+            open={open}
+            setOpen={setOpen}
+            onClick={() => setOpen(!open)}
+        >
             <div />
             <div />
             <div />
