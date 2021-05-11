@@ -5,11 +5,13 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Main from './components/Main';
 import Projects from './components/Projects';
+import ScrollTop from './components/ScrollTop';
 
 function App() {
     return (
         <div className="App bg-1-hex">
             <Header />
+            <ScrollTop />
             <Switch>
                 <Route path="/" exact>
                     <Main />
