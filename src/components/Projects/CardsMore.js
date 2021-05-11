@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CardsMore = () => {
     return (
@@ -11,9 +12,9 @@ const CardsMore = () => {
             </a>
 
             <div className="flex justify-center space-x-5 p-3">
-                <a href="/projects" rel="noreferrer" className="col-4-hex">
+                <Link to="/projects" rel="noreferrer" className="col-4-hex">
                     See more
-                </a>
+                </Link>
             </div>
             <div className="tags">
                 <p>JavaScript</p>
