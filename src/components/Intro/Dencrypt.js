@@ -45,6 +45,7 @@ const Dencrypt = () => {
         }, 2500);
 
         return () => clearInterval(action);
+        // eslint-disable-next-line
     }, []);
     return <div className="dencrypt">#{result}</div>;
 };

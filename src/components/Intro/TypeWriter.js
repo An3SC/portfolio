@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 const TypeWriter = () => {
     return (
-        <div className="typing flex items-center mr-3 w-8/12">
+        <div className="typing flex items-center mr-3">
             <Typewriter
                 // options={{
                 //     autoStart: true,
