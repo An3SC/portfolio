@@ -41,10 +41,23 @@
 .col-4-hex {
     color: var(--hex-4);
 }
+.col-5-hex {
+    color: var(--hex-5);
+}
 
 /* Out-of-tailwind styles */
 .header {
     height: 25vh;
+}
+.footer {
+    height: 25vh;
+    /* font-size: 15px; */
+}
+.about b {
+    color: var(--hex-5);
+}
+.contact li {
+    list-style: none;
 }
 /* Styled burger */
 .styledBurger {
@@ -153,8 +166,64 @@
     color: var(--hex-4);
 }
 
-/* icons, images */
-.icon-tabler-brand-github {
+/* icons, images, logos */
+.icon-tabler-brand-github,
+.icon-tabler-copy {
     transform: scale(0.5);
     z-index: 1;
+}
+.andresLogo {
+    height: max-content;
+}
+.andresFace {
+    width: 45%;
+    animation-duration: 7s;
+    animation-name: jiggling;
+    animation-iteration-count: infinite;
+}
+@keyframes jiggling {
+    0% {
+        transform: rotate(10deg);
+    }
+    90% {
+        transform: rotate(10deg);
+    }
+    92% {
+        transform: rotate(0deg);
+    }
+    94% {
+        transform: rotate(10deg);
+    }
+    96% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(10deg);
+    }
+}
+
+/* Scroll Top */
+.scrollTop {
+    position: fixed;
+    width: 100%;
+    bottom: 20px;
+    align-items: center;
+    height: 20px;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.5;
+}
+.scrollTop:hover {
+    opacity: 1;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
 }
