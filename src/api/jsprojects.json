@@ -33,40 +33,18 @@
         "repo": "https://github.com/An3SC/Testing/tree/main/04-colorFlipper"
     },
     {
-        "name": "Scroll animation",
-        "url": "",
-        "img": "",
+        "name": "Client manager",
+        "url": "https://client-manger-indexeddb.netlify.app/",
+        "img": "/img/clientmanager.png",
         "tags": {
-            "tag1": "",
-            "tag2": "",
-            "tag3": ""
+            "tag1": "IndexedDB",
+            "tag2": "DOM Scripting",
+            "tag3": "Tailwind"
         },
-        "repo": "https://github.com/An3SC/Testing/tree/main/03-Scroll-Animation"
+        "repo": "https://github.com/An3SC/BreakMyCode/tree/main/02-Clients"
     },
     {
-        "name": "Testing1",
-        "url": "",
-        "img": "",
-        "tags": {
-            "tag1": "",
-            "tag2": "",
-            "tag3": ""
-        },
-        "repo": ""
-    },
-    {
-        "name": "Testing2",
-        "url": "",
-        "img": "",
-        "tags": {
-            "tag1": "",
-            "tag2": "",
-            "tag3": ""
-        },
-        "repo": ""
-    },
-    {
-        "name": "Testing3",
+        "name": "Test",
         "url": "",
         "img": "",
         "tags": {
