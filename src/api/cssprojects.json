@@ -1,50 +1,17 @@
 [
     {
-        "name": "Test1",
-        "url": "",
-        "img": "",
+        "name": "Scroll animation",
+        "url": "https://scroll-purrrfect.netlify.app/",
+        "img": "/img/scrollanimation.png",
         "tags": {
-            "tag1": "Transform",
-            "tag2": ":root",
-            "tag3": "Media Query"
+            "tag1": "ScrollMagic",
+            "tag2": "Animation",
+            "tag3": "Translate"
         },
-        "repo": ""
+        "repo": "https://github.com/An3SC/Testing/tree/main/03-Scroll-Animation"
     },
     {
-        "name": "Test2",
-        "url": "",
-        "img": "",
-        "tags": {
-            "tag1": "",
-            "tag2": "",
-            "tag3": ""
-        },
-        "repo": ""
-    },
-    {
-        "name": "Test3",
-        "url": "",
-        "img": "",
-        "tags": {
-            "tag1": "",
-            "tag2": "",
-            "tag3": ""
-        },
-        "repo": ""
-    },
-    {
-        "name": "Test4",
-        "url": "",
-        "img": "",
-        "tags": {
-            "tag1": "",
-            "tag2": "",
-            "tag3": ""
-        },
-        "repo": ""
-    },
-    {
-        "name": "Test5",
+        "name": "Test",
         "url": "",
         "img": "",
         "tags": {
