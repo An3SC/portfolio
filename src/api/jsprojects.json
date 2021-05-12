@@ -44,6 +44,17 @@
         "repo": "https://github.com/An3SC/BreakMyCode/tree/main/02-Clients"
     },
     {
+        "name": "Crypto calculator",
+        "url": "https://crypto-quote-calculator.netlify.app/",
+        "img": "/img/crypto.png",
+        "tags": {
+            "tag1": "API",
+            "tag2": "Fetch",
+            "tag3": "DOM Scripting"
+        },
+        "repo": "https://github.com/An3SC/BreakMyCode/tree/main/03-Cryptos"
+    },
+    {
         "name": "Test",
         "url": "",
         "img": "",
