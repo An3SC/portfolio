@@ -37,7 +37,12 @@ const Contact = () => {
                         text={'sierracardalda@gmail.com'}
                     >
                         {copied ? (
-                            <button>{clipboard2}</button>
+                            <div className="flex">
+                                <button>{clipboard2}</button>
+                                <p className="flex items-center text-xs opacity-30 ">
+                                    Copied!
+                                </p>
+                            </div>
                         ) : (
                             <button>{clipboard}</button>
                         )}
