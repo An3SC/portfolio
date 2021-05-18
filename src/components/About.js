@@ -101,7 +101,7 @@ const About = () => {
                             </li>
                             <li>
                                 <b>English</b>:
-                                <span className="flex flex-col items-center">
+                                <span className="flex flex-col ml-6">
                                     <p>Reading - advanced</p>
                                     <p>Listening - advanced</p>
                                     <p>Writing - advanced</p>

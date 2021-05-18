@@ -7,7 +7,12 @@ const ProjectCards = (props) => {
     return (
         <div className="bg-3-hex mb-3 container max-w-lg" key={name}>
             <h3 className="h-12 min-h-0 flex con justify-center items-center">{name}</h3>
-            {img && <img src={img} alt={name} />}
+            {img && (
+                <a href={url} target="_blank" rel="noreferrer">
+                    {' '}
+                    <img src={img} alt={name} />
+                </a>
+            )}
             <div className="flex justify-around items-center space-x-5">
                 <a href={url} target="_blank" rel="noreferrer" className="col-4-hex">
                     Visit
