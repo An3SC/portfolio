@@ -9,5 +9,16 @@
             "tag3": "Translate"
         },
         "repo": "https://github.com/An3SC/Testing/tree/main/03-Scroll-Animation"
+    },
+    {
+        "name": "CSS Layout",
+        "url": "https://css-layoutt.netlify.app/",
+        "img": "/img/cssLayout.png",
+        "tags": {
+            "tag1": "Responsive Web Design",
+            "tag2": "Animations",
+            "tag3": "Layout"
+        },
+        "repo": "https://github.com/An3SC/Testing/tree/main/06-cssLayout"
     }
 ]
