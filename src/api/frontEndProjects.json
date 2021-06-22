@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Albion killboard",
+        "url": "https://modest-albion-api.netlify.app/",
+        "img": "/img/albionKillboard.png",
+        "tags": {
+            "tag1": "React",
+            "tag2": "Sass",
+            "tag3": "Api-rest"
+        },
+        "repo": "https://github.com/An3SC/albion-api"
+    }
+]
